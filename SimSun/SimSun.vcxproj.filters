@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{de7d2b4d-e6b1-4d35-8c48-5d04a91aafd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{f19b2bd3-743f-4335-a1e9-cb3a1e1fc768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{2170e51e-cb18-40ca-86bf-355d3ca87ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{0988d6b1-c993-4ab2-98e9-455617fb3b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Gui Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Qt Generated Headers">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Qt Generated Headers\Debug">
+      <UniqueIdentifier>{ca84c058-e80b-48ed-bd92-28a5f7fbbfe4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{3b46794b-d109-4e40-a7da-476c8a7970bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{6f0697aa-2c50-4267-8c4b-2d4a35614cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{786e42a7-90f8-469c-9c66-411ce7ffa92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{483e75dd-7893-4bfe-ad08-f1ad28925964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Generated Headers\Release">
+      <UniqueIdentifier>{96fd281a-2f82-4e4e-9135-62a81f23c60e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{422b564a-8d23-446b-bb42-ffc63c2d8245}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsorberBox.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsorberPanel.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Paraboloid.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BenchmarkTimer.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GpuDeviceInformationDialog.cpp">
+      <Filter>Qt Generated Headers\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GpuDeviceInformationDialog.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_Viewport.cpp">
+      <Filter>Qt Generated Headers\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_Window.cpp">
+      <Filter>Qt Generated Headers\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GpuDeviceInformationDialogTabPage.cpp">
+      <Filter>Qt Generated Headers\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GpuDeviceInformationDialogTabPage.cpp">
+      <Filter>Qt Generated Headers\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GpuDeviceInformationDialogTabPage.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ResultsDialog.cpp">
+      <Filter>Qt Generated Headers\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ResultsDialog.cpp">
+      <Filter>Qt Generated Headers\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultsDialog.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ResultsDialogTabPage.cpp">
+      <Filter>Qt Generated Headers\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ResultsDialogTabPage.cpp">
+      <Filter>Qt Generated Headers\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultsDialogTabPage.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTreeGpu.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTreeCpuNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTreeCpu.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTreeGpuNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTreeNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTree.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearTracer.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MTLinearTracer.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainWindow.h">
+      <Filter>Qt Generated Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_GpuDeviceInformationDialog.h">
+      <Filter>Qt Generated Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_GpuDeviceInformationDialogTabPage.h">
+      <Filter>Qt Generated Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadrangle.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsorberBox.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsorberPanel.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Paraboloid.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelList.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceObject.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RayHitInfo.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TrianglePanelPair.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="BenchmarkTimer.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="RayList.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultList.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RankResultList.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ResultsDialog.h">
+      <Filter>Qt Generated Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ResultsDialogTabPage.h">
+      <Filter>Qt Generated Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultSet.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTreeGpu.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTreeCpuNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTreeCpu.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTreeGpuNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTreeNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTree.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearTracer.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTracer.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MTLinearTracer.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="gui\MainWindow.ui">
+      <Filter>Qt Gui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\GpuDeviceInformationDialog.ui">
+      <Filter>Qt Gui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\GpuDeviceInformationDialogTabPage.ui">
+      <Filter>Qt Gui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GpuDeviceInformationDialog.h">
+      <Filter>Header Files\GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Viewport.h">
+      <Filter>Header Files\GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Window.h">
+      <Filter>Header Files\GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GpuDeviceInformationDialogTabPage.h">
+      <Filter>Header Files\GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ResultsDialog.ui">
+      <Filter>Qt Gui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ResultsDialog.h">
+      <Filter>Header Files\GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ResultsDialogTabPage.ui">
+      <Filter>Qt Gui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ResultsDialogTabPage.h">
+      <Filter>Header Files\GUI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sun.ico" />
+    <None Include="Umbrella.ico" />
+    <None Include="Ideas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimSun.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="KdTreeGpu.cu">
+      <Filter>Source Files\Scene</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
